@@ -46,6 +46,9 @@ p {
 }
 
 .logofirst {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--btn-color);
     font-family: Raleway, sans-serif;    
     letter-spacing: 0.03em;
@@ -73,8 +76,8 @@ p {
 /* site nav */
 header {
     border-bottom: 1px solid var(--footer-text-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 .main-nav {
     display: flex;
@@ -97,6 +100,7 @@ header {
 }
 
 .site-nav .link {
+    display: block;
     position: relative;
     color:var(--title-text-color);
     font-weight: 500;
@@ -137,6 +141,9 @@ header {
     font-style: normal;
 }
 .email,.tel {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--primery-text-color);
     text-decoration: none;
     transition: color 250ms var(--cubic);
