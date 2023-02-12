@@ -325,6 +325,8 @@ line-height: 1.2;
 .card-content{
     text-align: center;
     padding-bottom: 32px;
+    padding-top: 32px;
+    background-color: var(--primery-bg-color);
     
 }
 .team-position{
@@ -402,6 +404,10 @@ footer {
     padding-bottom: 0px;
     display: flex;
   }
+.container.footer .logofirst {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .footer-logo {
     margin-bottom: 16px;
 }
